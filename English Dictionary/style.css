@@ -24,7 +24,7 @@ body{
 .heading{
     font-size: 28px;
 }
-
+ 
 .input{
     height: 53px;
     width: 300px;
@@ -37,5 +37,5 @@ body{
 
 .meaning-container{
     display: none; /*removes this part from page and can be returned using js*/
-    
+
 }
