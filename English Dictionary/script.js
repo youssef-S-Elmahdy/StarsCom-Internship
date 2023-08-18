@@ -5,7 +5,7 @@ const titleEl = document.getElementById("title");
 const meaningEl = document.getElementById("meaning");
 const audioEl = document.getElementById("audio");
 
- 
+  
 inputEl.addEventListener("keyup", (e)=>{ /*keyup triggers a function whenever a key is press */
     if (e.target.value && e.key == "Enter"){/* if there is a value in input bar and enter has been pressed*/
         fetchAPI(e.target.value);
